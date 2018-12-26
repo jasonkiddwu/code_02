@@ -10,7 +10,7 @@ app.get("/about",(req,res)=>{
     res.send({msg:'ok',status:200})
 })
 app.get("/help",(req,res)=>{
-    
+    res.send({msg:'ok',status:200})
 })
 //调用app.listen()方法，指定端口号并启动web服务器
 app.listen(3000, () => {
